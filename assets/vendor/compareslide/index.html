@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title> Widget</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.min.css" />
+	<link rel="stylesheet" href="css/Scrub.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/Scrub.min.js"></script>
+</head>
+<body>
+<div class="container-widget" id="container-widget">
+	<div class="example" id="slider">
+	  <div style="before-class"></div>
+	  <div style="after-class"></div>
+	</div>
+
+</div>
+</body>
+<script type="text/javascript">
+	Scrub({
+		target: '#slider',
+		src: ['images/foto1.jpg','images/foto2.jpg']
+	});
+</script>
+</html>
